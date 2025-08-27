@@ -17,6 +17,14 @@ class _LoginscreenState extends State<Loginscreen> {
   final TextEditingController emailcontroller = TextEditingController();
   final TextEditingController pwdcontroller = TextEditingController();
   bool ispassvisible = false;
+
+  @override
+  void dispose() {
+    emailcontroller.dispose();
+    pwdcontroller.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -8,6 +8,14 @@ class Searchbarwidget extends StatefulWidget {
 }
 
 class _SearchbarwidgetState extends State<Searchbarwidget> {
+  TextEditingController searchcontroller = TextEditingController();
+
+  @override
+  void dispose() {
+    searchcontroller.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(

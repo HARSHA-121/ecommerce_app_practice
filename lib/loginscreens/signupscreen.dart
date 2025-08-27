@@ -18,6 +18,14 @@ class _SignupscreenState extends State<Signupscreen> {
   bool isrepassvisible = false;
 
   @override
+  void dispose() {
+    emailcontroller.dispose();
+    pwdcontroller.dispose();
+    repwdcontroller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
