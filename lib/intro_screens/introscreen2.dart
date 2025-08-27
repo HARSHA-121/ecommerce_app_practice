@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/intro_screens/getstartedscreen.dart';
-import 'package:stylish_shop_app/intro_screens/introscreen3.dart';
+import 'package:my_app/intro_screens/getstartedscreen.dart';
+import 'package:my_app/intro_screens/introscreen3.dart';
 
 class Introscreen2 extends StatelessWidget {
   const Introscreen2({super.key});

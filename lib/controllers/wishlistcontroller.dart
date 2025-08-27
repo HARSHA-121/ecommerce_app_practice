@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/models/product.dart';
+import 'package:my_app/models/product.dart';
 
 class WishlistController extends GetxController {
   var wishlistItems = <Product, int>{}.obs;

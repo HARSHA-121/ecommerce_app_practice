@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/controllers/cartcontroller.dart';
-import 'package:stylish_shop_app/controllers/wishlistcontroller.dart';
-import 'package:stylish_shop_app/pages/productdetailspage.dart';
-import 'package:stylish_shop_app/models/product.dart'; // Make sure you have your Product model
+import 'package:my_app/controllers/cartcontroller.dart';
+import 'package:my_app/controllers/wishlistcontroller.dart';
+import 'package:my_app/pages/productdetailspage.dart';
+import 'package:my_app/models/product.dart'; // Make sure you have your Product model
 
 class Wishlistpage extends StatefulWidget {
   const Wishlistpage({super.key});

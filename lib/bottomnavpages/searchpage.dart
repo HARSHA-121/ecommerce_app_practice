@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stylish_shop_app/my_widgets/searchbarwidget.dart';
+import 'package:my_app/my_widgets/searchbarwidget.dart';
 
 class Searchpage extends StatelessWidget {
   const Searchpage({super.key});
@@ -9,11 +9,7 @@ class Searchpage extends StatelessWidget {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(15),
-        child: Column(children: [
-          SizedBox(height: 20), 
-          Searchbarwidget()
-          ]
-          ),
+        child: Column(children: [SizedBox(height: 20), Searchbarwidget()]),
       ),
     );
   }

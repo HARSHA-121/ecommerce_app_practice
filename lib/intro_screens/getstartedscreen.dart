@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/loginscreens/loginscreen.dart';
+import 'package:my_app/loginscreens/loginscreen.dart';
 
 class Getstartedscreen extends StatelessWidget {
   const Getstartedscreen({super.key});

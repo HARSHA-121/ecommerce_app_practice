@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/pages/profilepage.dart';
+import 'package:my_app/pages/profilepage.dart';
 
 class Appbarwidget extends StatelessWidget {
   const Appbarwidget({super.key});

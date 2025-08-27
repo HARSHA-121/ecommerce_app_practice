@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/bottomnavbar/bottomnavbar.dart';
-import 'package:stylish_shop_app/loginscreens/forgotpassword.dart';
-import 'package:stylish_shop_app/loginscreens/signupscreen.dart';
+import 'package:my_app/bottomnavbar/bottomnavbar.dart';
+import 'package:my_app/loginscreens/forgotpassword.dart';
+import 'package:my_app/loginscreens/signupscreen.dart';
 
 class Loginscreen extends StatefulWidget {
   const Loginscreen({super.key});

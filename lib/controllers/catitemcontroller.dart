@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/models/category_items.dart'; // adjust to your file path
+import 'package:my_app/models/category_items.dart'; // adjust to your file path
 
 class Catitemcontroller extends GetxController {
   var selectedCategory = "All".obs;

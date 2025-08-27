@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:stylish_shop_app/models/category_model.dart';
-import 'package:stylish_shop_app/models/productmodel.dart';
-import 'package:stylish_shop_app/my_widgets/appbarwidget.dart';
-import 'package:stylish_shop_app/my_widgets/searchbarwidget.dart';
+import 'package:my_app/models/category_model.dart';
+import 'package:my_app/models/productmodel.dart';
+import 'package:my_app/my_widgets/appbarwidget.dart';
+import 'package:my_app/my_widgets/searchbarwidget.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});

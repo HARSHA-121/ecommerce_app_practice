@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/bottomnavbar/bottomnavbar.dart';
-import 'package:stylish_shop_app/utils/app_textstyles.dart';
+import 'package:my_app/bottomnavbar/bottomnavbar.dart';
+import 'package:my_app/utils/app_textstyles.dart';
 
 class Profilepage extends StatefulWidget {
   const Profilepage({super.key});

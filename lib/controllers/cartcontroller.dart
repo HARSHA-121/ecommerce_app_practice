@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/models/product.dart';
+import 'package:my_app/models/product.dart';
 
 class CartController extends GetxController {
   // store products with their quantities

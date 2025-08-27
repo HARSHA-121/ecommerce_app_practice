@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:stylish_shop_app/bottomnavpages/cartpage.dart';
-import 'package:stylish_shop_app/bottomnavpages/homepage.dart';
-import 'package:stylish_shop_app/bottomnavpages/searchpage.dart';
-import 'package:stylish_shop_app/bottomnavpages/settingspage.dart';
-import 'package:stylish_shop_app/bottomnavpages/wishlistpage.dart';
+import 'package:my_app/bottomnavpages/cartpage.dart';
+import 'package:my_app/bottomnavpages/homepage.dart';
+import 'package:my_app/bottomnavpages/searchpage.dart';
+import 'package:my_app/bottomnavpages/settingspage.dart';
+import 'package:my_app/bottomnavpages/wishlistpage.dart';
 
 class BottomNavBarExample extends StatefulWidget {
   const BottomNavBarExample({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/controllers/cartcontroller.dart';
-import 'package:stylish_shop_app/controllers/productcontroller.dart';
-import 'package:stylish_shop_app/models/product.dart';
+import 'package:my_app/controllers/cartcontroller.dart';
+import 'package:my_app/controllers/productcontroller.dart';
+import 'package:my_app/models/product.dart';
 
 class Productdetailspage extends StatefulWidget {
   final Product product;

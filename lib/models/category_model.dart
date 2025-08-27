@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stylish_shop_app/controllers/catitemcontroller.dart';
+import 'package:my_app/controllers/catitemcontroller.dart';
 
 class CategoryModel extends StatefulWidget {
   const CategoryModel({super.key});
